@@ -319,6 +319,9 @@
         typeof main !== 'undefined') {
       // Repeat until the parent answers, in case its listener attached late.
       watchResets();
+      // CodeHS saves the program, so GEARS's "leave site?" prompt would only
+      // block students from navigating away.
+      window.removeEventListener('beforeunload', main.checkUnsaved);
       startPosition = robotPosition();
       post('ready');
       var readyTimer = setInterval(function() {
