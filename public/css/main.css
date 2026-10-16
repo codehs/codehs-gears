@@ -26,6 +26,10 @@ header {
     margin-right: 0.5em;
     margin-top: -0.3em;
     margin-bottom: -0.3em; }
+  header .sourceLink {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 0.75em; }
   header #projectName, header #robotName {
     margin-left: 1em;
     background: #76AFFC;
