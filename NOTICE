@@ -1,0 +1,17 @@
+GEARS for CodeHS
+Copyright (C) 2026 CodeHS
+
+This product is a modified version of GEARS: The Generic Educational
+Autonomous Robot Simulator, originally published by Cort Wee and other
+contributors at https://github.com/QuirkyCort/gears.
+
+CodeHS based this version on upstream commit 20b8e87 and modified it on
+2026-10-16. CodeHS's modifications are documented in CODEHS.md.
+
+GEARS for CodeHS is distributed under the GNU General Public License,
+version 3. A copy of that license is included in LICENSE.
+
+The repository contains third-party components and asset licenses supplied by
+the upstream project. Their attributions and license files remain with those
+components. Before a production release, review those notices against the
+deployed artifact and retain every required notice.
